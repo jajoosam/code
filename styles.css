@@ -1,0 +1,93 @@
+html {
+	max-width: 50em;
+	margin: 0 auto;
+	padding: 10px;
+    line-height: 2em;
+}
+
+p {
+    font-size: 1.5em;
+    padding-top: 1.3em;
+}
+
+.top, .first{
+  font-family: monospace;
+}
+
+.nice{
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+}
+
+.learning span, .resources span {
+    font-family: 'Pacifico', cursive;
+}
+
+.learning, .skepticism {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.end-pep{
+    font-family: 'Muli', sans-serif;
+}
+
+.resources h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2em;
+}
+
+.resources span{
+    font-size: 1.5em;
+}
+
+section {
+    padding-top: 15px;
+}
+
+@import "compass/css3";
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+  border: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #000;
+
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+  display: block;
+  width: 200px;
+}
+
+li a:hover {
+  font-size: 30px;
+  font-style: italic;
+  background: #f6f6f6;
+}
+
+footer{
+    padding-top: 2em;
+    text-align: center;
+    font-size: 0.8em;
+    font-family: 'Muli';
+}
+
+footer a{
+    text-decoration: none;
+    color: #47BBE0;
+}
