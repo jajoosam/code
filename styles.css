@@ -75,11 +75,6 @@ li a {
   display: block;
 }
 
-li a:hover {
-  font-size: 25px;
-  font-style: italic;
-  background: #4B75C3;
-}
 
 footer{
     padding-top: 2em;
